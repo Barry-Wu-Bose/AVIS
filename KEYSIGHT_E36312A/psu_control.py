@@ -18,8 +18,6 @@ for command in command_list:
 #print(inst.query("*IDN?"))
 #print(inst.query("SYSTem:ERRor?"))
 
-
-
 """
 Common SCPI Commands
 Reset - '*RST'
@@ -27,6 +25,4 @@ Reset - '*RST'
 Example Source 1 3.5V 1.5A
 
 inst.write('APPLy P6V,3.5,1.5')
-
-
 """
